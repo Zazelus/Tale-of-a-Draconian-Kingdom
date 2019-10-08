@@ -68,13 +68,13 @@ public class Prompter {
 			Assembler.playerDragon.modifyPlayerConstitution(5);
 		}
 		
-		System.out.println("  What is your name?");
+		System.out.println("\n  What is your name?");
 		String strInput = console.next();
 		
 		Assembler.playerName = strInput;
 		Assembler.playerDragon = new Dragon(Assembler.playerName, Assembler.playerSpecies);
 		
-		System.out.println("  You are a young and magnifcient " + Assembler.playerSpecies + " and your name is " + Assembler.playerName + ".");
+		System.out.println("\n  You are a young and magnifcient " + Assembler.playerSpecies + " and your name is " + Assembler.playerName + ".");
 		Assembler.playerDragon.showPlayerStats();
 		
 		/* To be Implemented

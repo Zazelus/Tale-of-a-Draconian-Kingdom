@@ -45,6 +45,9 @@ public class Player {
 		System.out.println("   Strength: " + playerStrength);
 		System.out.println("   Wisdom: " + playerWisdom);
 		System.out.println("   Intelligence: " + playerIntelligence);
+		
+		System.out.println("\n   Player Health: " + playerHealth);
+		System.out.println("   Player Level: " + PlayerLevelHandler.playerLevel);
 	}
 	
 	// Player Effects
