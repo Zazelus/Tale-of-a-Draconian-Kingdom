@@ -9,13 +9,13 @@ package com.draconiankingdom.playerhandlers;
  *
  */
 
-public class PlayerLevelHandler extends Player {
+public class PlayerLevelHandler {
 
 	private static final int[] LEVEL_REQUIREMENTS = new int[] {60, 200, 400, 1000, 2000};
 	public static int playerLevel = 0;
 	
-	public PlayerLevelHandler(String name, String species) {
-		super(name, species);
+	public PlayerLevelHandler() {
+		
 	}
 	
 	public static boolean levelRequirement() {

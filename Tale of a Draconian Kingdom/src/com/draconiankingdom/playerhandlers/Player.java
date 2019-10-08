@@ -37,6 +37,42 @@ public class Player {
 		playerDragon = species;
 		playerExp = 0;
 	}
+	
+	public void showPlayerStats() {
+		System.out.println("\n # " + playerName + "'s" + " Statistics " + " #");
+		System.out.println("\n   Constitution: " + playerConstitution);
+		System.out.println("   Dexterity: " + playerDexterity);
+		System.out.println("   Strength: " + playerStrength);
+		System.out.println("   Wisdom: " + playerWisdom);
+		System.out.println("   Intelligence: " + playerIntelligence);
+	}
+	
+	// Player Effects
+	
+	public void modifyPlayerHealth(int health) {
+		playerHealth += health;
+	}
+
+	public void modifyPlayerConstitution(int CONT) {
+		playerConstitution += CONT;
+	}
+
+	public void modifyPlayerDexterity(int DEX) {
+		playerDexterity += DEX;
+	}
+
+	public void modifyPlayerStrength(int STR) {
+		playerStrength += STR;
+	}
+
+	public void modifyPlayerWisdom(int WIS) {
+		playerWisdom += WIS;
+	}
+
+	public void modifyPlayerIntelligence(int INT) {
+		playerIntelligence += INT;
+	}
+
 
 
 
