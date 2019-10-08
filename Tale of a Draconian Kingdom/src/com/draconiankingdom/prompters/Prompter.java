@@ -77,12 +77,42 @@ public class Prompter {
 		System.out.println("\n  You are a young and magnifcient " + Assembler.playerSpecies + " and your name is " + Assembler.playerName + ".");
 		Assembler.playerDragon.showPlayerStats();
 		
-		/* To be Implemented
+		System.out.println("\n  The listing above displays various statistics that will be essential throughout your journey. The consequences of various interactions will be decided by one or more specific characteristics.");
+		System.out.println("\n  Constitution has a direct effect on how much health you will have, and will allow you to suffer more damage before dying in combat encounters. It may also be used for different dialogue choices.");
+		System.out.println("  Dexterity is a measure of agility and with your intelligence, how cunning you are.");
+		System.out.println("  Strength dictates how much damage you deal to enemies and can provide a bonus to intimidation in dialogue.");
+		System.out.println("  Wisdom allows you to resist negative status effects and is also used in dialogue to pass checks that require a level of disdain or foresight.");
+		System.out.println("  Intelligence helps in casting spells, researching new technology and in passing other varying dialogue interactions.");
+		
+		System.out.println("\n  Depending on the encounters you may face, you will gain a certain level of experience which effects your level, every new level, you can decide on new abilities to learn and which statistics you want to upgrade.");
+		
 		System.out.println("\n  Now, " + Player.playerName + " where would you like to establish your first settlment?");
 		System.out.println("\n  1. The Humans: Tenacious and highly adapting creatures, they use technology and innovation to overcome their weaknesses. They have an innate fear and awe of dragons.");
 		System.out.println("  2. The Orcs and Goblins: Collectively referred to as 'Greenskins', they are usually crude and violent when interacting with others or those of their own kind. They respect the strong and tread upon the weak.");
 		System.out.println("  3. The Elves: Forest dwelling folk, they spend most of their long lives practicing magic and creating works of art, they are slow to action and tend to take the diplomatic route. They are curious about your kind, and have the most experience interacting with dragons.");
-		*/
+		
+		intInput = console.nextInt();
+		
+		if (intInput == 1) {
+			humanStart();
+		} else if (intInput == 2) {
+			greenStart();
+		} else if (intInput == 3) {
+			elfStart();
+		}
+			
+	}
+	
+	public void humanStart() {
+		
+	}
+	
+	public void greenStart() {
+		
+	}
+	
+	public void elfStart() {
+		
 	}
 
 }
