@@ -5,16 +5,20 @@ import java.util.Scanner;
 import com.draconiankingdom.main.Assembler;
 import com.draconiankingdom.playerhandlers.Dragon;
 import com.draconiankingdom.playerhandlers.Player;
+import com.dragonciankingdom.enemies.ArtBuilder;
 
 public class Prompter {
 	
 	public static Scanner console = new Scanner(System.in);
+	ArtBuilder builder = new ArtBuilder();	
 	
 	public Prompter() {
 		
 	}
 	
 	public void gameStart() {
+		
+		builder.printDragon();
 		
 		System.out.println("# Welcome to the Tale of a Draconian Kingdom #");
 		
