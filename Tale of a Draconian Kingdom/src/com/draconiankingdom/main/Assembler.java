@@ -11,7 +11,7 @@ public class Assembler {
 	public static String playerName;
 	public static String playerSpecies;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		prompter.gameStart();
 	}
 	
